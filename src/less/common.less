@@ -1,0 +1,85 @@
+@bgColor:#00AF1F;
+@fontColor:#fff;
+@commonBgColor:#eee;
+
+.title{
+  width: 100%;
+  height: 36px;
+  background: @bgColor;
+  text-align: center;
+  line-height: 36px;
+  color: @fontColor;
+  font-size: 18px;
+}
+.btn{
+  background: @bgColor;
+  color: @fontColor;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 5px;
+}
+.pointer{
+  width: 16px;
+  height: 23px;
+  background: url("../assets/jt@2x.png") no-repeat;
+  display: inline-block;
+  position: absolute;
+  top: 24px;
+  right: 10px;
+}
+.signInSuccessBtn{
+  width: 149px;
+  height: 44px;
+  display: inline-block;
+  background-image: linear-gradient(-180deg, #7bbe4c 0%, #60ad30 100%);
+  line-height: 44px;
+  margin-top: 44px;
+}
+
+.mr5{
+  margin-right:5px;
+}
+.bgShade{
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.2);
+  position: fixed;
+  top:0;
+  left: 0;
+  z-index: 100;
+}
+
+.footerBtn{
+  width:100%;
+  padding:6px 24px;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  box-sizing: border-box;
+  background-color:#fff;
+  z-index:1;
+}
+
+.signInBtn {
+  width: 100%;
+  height: 44px;
+  line-height: 44px;
+  outline: none;
+  border: none;
+  background: #D1D1D1;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #FFFFFF;
+  &.active {
+    background-image: linear-gradient(-180deg, #60ad30 0%, #7bbe4c 100%);
+  }
+}
+
+.signIn {
+  padding-bottom: 86px;
+}
+
+.noCanShow{
+  margin:20px auto;
+  text-align:center;
+}
